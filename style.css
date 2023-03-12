@@ -1,0 +1,76 @@
+/* Styled links*/
+
+
+nav {
+    float: right;
+    margin-right: 25px;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+h1 {
+    letter-spacing: -1px;
+    font-weight: lighter;
+    text-align: center;
+}
+
+/*h1 class for border*/
+.boxed {
+    color: #e7e7e7;
+    background-color: rgb(21, 102, 78);
+    border-style: solid;
+    border-color: rgb(21, 102, 78);
+    padding: 25px;
+    border-radius: 25px;
+}
+
+/*Setting text to left with specific width*/
+.left-text {
+    float: left;
+    font-weight: lighter;
+    text-align: left;
+    width: 63%;
+    scroll-margin-bottom: 5rem;
+    padding-bottom: 50px;
+}
+
+/*Fixed to bottom of page*/
+
+a:link {color: rgb(21, 102, 78);}
+a:visited {color: rgb(155, 142, 74);}
+a:hover {color: rgb(27, 214, 174);}
+a:active {color: chocolate;}
+
+/*Creating Diamond box for profile image*/
+.profile-pic {
+    float: right;
+    width: 325px;
+    height: 325px;
+    transform: rotate(45deg);
+    overflow: hidden;
+    border-radius: 15px;
+    margin-top: 100px;
+    margin-right: 100px;
+}
+
+/*Image adjudments to center, straighten, and zoom*/
+.profile-pic img {
+    width: 700px;
+    zoom: 70%;
+    transform: rotate(-55deg) translateY(-200px) translateX(200px);
+}
+
+footer {
+    background-color: #3b3b3b59;
+    font-size: small;
+    float: right;
+    position: fixed;
+    height: 50px;
+    bottom: 0;
+    width: 100%;
+    color: #e7e7e7;
+    text-align: center;
+}
