@@ -15,7 +15,6 @@ function sendEmail() {
       '%0D%0A%0D%0ASender\'s Email: ' + encodeURIComponent(senderEmail);
 
     window.location.href = mailToLink;
-    
 }
 
 function displayEmail() {

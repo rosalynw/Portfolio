@@ -1,4 +1,5 @@
 /* Styled links*/
+
 nav {
     float: right;
     margin-right: 25px;
@@ -11,8 +12,7 @@ body {
 
 h1 {
     font-family: 'Quicksand', sans-serif;
-    letter-spacing: -1px;
-    
+    /* letter-spacing: -1px; */
     text-align: center;
 }
 
@@ -31,8 +31,7 @@ h1 {
 }
 
 /*Setting text to left with specific width*/
-.left-text {
-    float: left;
+.about {
     font-weight: lighter;
     text-align: left;
     width: 63%;
@@ -43,7 +42,6 @@ h1 {
 /*Fixed to bottom of page*/
 
 a:link {color: rgb(21, 102, 78);}
-a:visited {color: rgb(155, 142, 74);}
 a:hover {color: rgb(27, 214, 174);}
 a:active {color: chocolate;}
 
@@ -90,5 +88,6 @@ ion-icon {
 .email-Form {
     display: flex;
     flex-direction: column;
-    justify-content: left;
+    width: 600px;
+    padding: 15px;
 }

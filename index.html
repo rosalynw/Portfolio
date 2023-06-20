@@ -60,18 +60,19 @@
                                 <a href="https://github.com/rosalynw"><ion-icon name="logo-github"></ion-icon></a>
                                 <a href="mailto:rosalynwimberly@gmail.com" onclick="displayEmail()"><ion-icon name="mail-outline"></ion-icon></a>
                             </div>
+                            <div class="email" id="email-layout">
+                                <form class="email-Form">
+                                    <input type="email" id="sender" name="sender">
+                                    <input type="text" id="subject" name="subject">
+                                    <textarea id="message" name="message" required></textarea>
+                                    <button type="submit" id="send" name="send" >Send</button>
+                                </form>
+                            </div>
                         </section>
                     </div>
                 </article>
-                <div class="email" id="email-layout">
-                    <form class="email-Form">
-                        <input type="email" id="sender" name="sender">
-                        <input type="text" id="subject" name="subject">
-                        <textarea id="message" name="message" required></textarea>
-                        <button type="submit" id="send" name="send" >Send</button>
-                    </form>
-                </div>
             </div>
+
         </main>
 
         <footer>
