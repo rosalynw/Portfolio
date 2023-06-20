@@ -1,20 +1,23 @@
 /* Styled links*/
-
-
 nav {
     float: right;
     margin-right: 25px;
 }
 
 body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Qucksand', sans-serif;
 }
 
 
 h1 {
+    font-family: 'Quicksand', sans-serif;
     letter-spacing: -1px;
-    font-weight: lighter;
+    
     text-align: center;
+}
+
+.intro, .left-text {
+    width: 50%;
 }
 
 /*h1 class for border*/
@@ -34,7 +37,7 @@ h1 {
     text-align: left;
     width: 63%;
     scroll-margin-bottom: 5rem;
-    padding-bottom: 50px;
+    /* padding-bottom: 50px; */
 }
 
 /*Fixed to bottom of page*/
@@ -73,4 +76,19 @@ footer {
     width: 100%;
     color: #e7e7e7;
     text-align: center;
+}
+
+/* icons */
+ion-icon {
+    font-size: 24px;
+}
+
+.email {
+    
+}
+
+.email-Form {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
 }

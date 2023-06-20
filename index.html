@@ -6,12 +6,15 @@
 
         <title>Rosalyn Wimberly</title>
         <link href="style.css" rel="stylesheet" type="text/css"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=Poppins:wght@100&family=Quicksand:wght@300;600&display=swap" rel="stylesheet">
     </head>
 
     <body>
         <header>
             <div>
-                <h1 class="boxed">Rosalyn Wimberly</h1>
+                <h1 class="header">Rosalyn Wimberly</h1>
                 <nav>
                     <a href="#about">About</a> | 
                    <a href="#contact">Contact</a>
@@ -22,25 +25,18 @@
         <main>
             <div>
                 <article>
-                    <h2>Welcome</h2>
+                    <h2 class="welcome">Welcome</h2>
                     <hr>
-                    <div class="left-text">
+                    <div class="intro">
                         <p>
-                            Hi, I'm Rosalyn Wimberly and this is my developer portfolio site.
-                            I'm currecntly based in Toledo, OH. But, I'm no stranger to moving around. I've preivously lived in two other states.
+                            Hi, I'm Rosalyn Wimberly, a software developer based in Toledo, OH.
                         </p>
-                        <ol>
-                            <li>Miami,FL</li>
-                            <li>Detroit, MI</li>
-                        </ol>
-                        <p>Here are a few of the languages I'm learning.</p>
-                        <ul>
-                            <li>Javascript</li>
-                            <li>Java</li>
-                            <li>C++</li>
-                            <li>C#</li>
-                        </ul>
-
+                        <div>
+                            <h5>Tech Stack</h5>
+                            <p>Javascript<p>
+                            <p>React</p>
+                            <p></p>
+                        </div>
                     </div>
 
                     <!--Image is seperate div to avoid "left-text" class rules-->
@@ -60,13 +56,21 @@
                             <div>
                                 <h3 id="contact">Contact</h3>
 
-                                <a href="https://www.linkedin.com/in/wimberlyblog/">LinkedIn</a>
-                                <a href="https://github.com/rosalynw">GitHub</a>
-                                <a href="mailto:rosalynwimberly@gmail.com">Email</a>
+                                <a href="https://www.linkedin.com/in/wimberlyblog/"><ion-icon name="logo-linkedin"></ion-icon></a>
+                                <a href="https://github.com/rosalynw"><ion-icon name="logo-github"></ion-icon></a>
+                                <a href="mailto:rosalynwimberly@gmail.com" onclick="displayEmail()"><ion-icon name="mail-outline"></ion-icon></a>
                             </div>
                         </section>
                     </div>
                 </article>
+                <div class="email" id="email-layout">
+                    <form class="email-Form">
+                        <input type="email" id="sender" name="sender">
+                        <input type="text" id="subject" name="subject">
+                        <textarea id="message" name="message" required></textarea>
+                        <button type="submit" id="send" name="send" >Send</button>
+                    </form>
+                </div>
             </div>
         </main>
 
@@ -75,6 +79,8 @@
                 <p>© Rosalyn Wimberly</p>
             </div>
         </footer>
-
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script src="./src/index.js"></script>
     </body>
 </html>
