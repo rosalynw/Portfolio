@@ -42,11 +42,11 @@
                     <!--Image is seperate div to avoid "left-text" class rules-->
                     <div class="profile-pic"><img src="profile-2.jpg" alt="Profile picture"></div>
                     <div class="left-text">
-                        <section>
+                        <section class="about">
                             <h3 id="about">About Me</h3>
                             <p>I've always been interested in figuring out how things work. During my undergrad years I got a sneak peek at coding and became hooked. 
                             After graduation, I started using free resources to teach myself to code for the next few years. I learned a lot but quickly 
-                            realized that I needed structure and a strong like-minded community, so I decided to take the leap in becoming a Front End Developer
+                            realized that I needed structure and a strong like-minded community, so I decided to take the leap in becoming a Full Stack Developer
                             by joining the <em>Thinkful</em> Software Flex Program.
                             </p>
                             <p>Outside of web development, Rosalyn can be found painting and drawing, specifically her pets and landscapes.</p>
@@ -62,10 +62,10 @@
                             </div>
                             <div class="email" id="email-layout">
                                 <form class="email-Form">
-                                    <input type="email" id="sender" name="sender">
-                                    <input type="text" id="subject" name="subject">
+                                    <input type="email" id="sender" name="sender" placeholder="Email">
+                                    <input type="text" id="subject" name="subject" placeholder="Subject">
                                     <textarea id="message" name="message" required></textarea>
-                                    <button type="submit" id="send" name="send" >Send</button>
+                                    <button type="submit" id="send" name="send" onclick="sendEmail()">Send</button>
                                 </form>
                             </div>
                         </section>

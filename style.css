@@ -1,5 +1,8 @@
 /* Styled links*/
-
+body {
+    padding-left: 45px;
+    padding-right: 45px;
+}
 nav {
     float: right;
     margin-right: 25px;
@@ -12,7 +15,6 @@ body {
 
 h1 {
     font-family: 'Quicksand', sans-serif;
-    /* letter-spacing: -1px; */
     text-align: center;
 }
 
@@ -81,13 +83,9 @@ ion-icon {
     font-size: 24px;
 }
 
-.email {
-    
-}
-
 .email-Form {
     display: flex;
     flex-direction: column;
     width: 600px;
-    padding: 15px;
+    padding-top: 15px;
 }
