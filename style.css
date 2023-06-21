@@ -1,8 +1,5 @@
 /* Styled links*/
-body {
-    padding-left: 45px;
-    padding-right: 45px;
-}
+
 nav {
     float: right;
     margin-right: 25px;
@@ -10,6 +7,8 @@ nav {
 
 body {
     font-family: 'Qucksand', sans-serif;
+    padding-left: 45px;
+    padding-right: 45px;
 }
 
 
