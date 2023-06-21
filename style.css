@@ -66,15 +66,12 @@ a:active {color: chocolate;}
 }
 
 footer {
-    background-color: #3b3b3b59;
+    display: flex;
     font-size: small;
-    float: right;
-    position: fixed;
     height: 50px;
-    bottom: 0;
     width: 100%;
-    color: #e7e7e7;
-    text-align: center;
+    justify-content: center;
+    align-items: flex-end;
 }
 
 /* icons */
@@ -87,4 +84,19 @@ ion-icon {
     flex-direction: column;
     width: 600px;
     padding-top: 15px;
+}
+
+.tech-list {
+    width: 125px;
+    
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 15px;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
 }

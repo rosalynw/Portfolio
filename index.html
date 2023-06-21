@@ -31,16 +31,20 @@
                         <p>
                             Hi, I'm Rosalyn Wimberly, a software developer based in Toledo, OH.
                         </p>
-                        <div>
-                            <h5>Tech Stack</h5>
-                            <p>Javascript<p>
-                            <p>React</p>
+                        <div class="tech-list">
+                            <h3>Tech Stack</h3>
+                            <ul>
+                                <li><ion-icon name="logo-javascript"></ion-icon> JavaScript</li>
+                                <li><ion-icon name="logo-react"></ion-icon> React.js</li>
+                                <li><ion-icon name="logo-html5"></ion-icon> HTML</li>
+                                <li> <ion-icon name="logo-css3"></ion-icon> CSS</li>
+                            </ul>
                             <p></p>
                         </div>
                     </div>
 
                     <!--Image is seperate div to avoid "left-text" class rules-->
-                    <div class="profile-pic"><img src="profile-2.jpg" alt="Profile picture"></div>
+                    <div class="profile-pic"><img src="./src/headshot.jpg" alt="Profile picture"></div>
                     <div class="left-text">
                         <section class="about">
                             <h3 id="about">About Me</h3>
@@ -60,11 +64,11 @@
                                 <a href="https://github.com/rosalynw"><ion-icon name="logo-github"></ion-icon></a>
                                 <a href="mailto:rosalynwimberly@gmail.com" onclick="displayEmail()"><ion-icon name="mail-outline"></ion-icon></a>
                             </div>
-                            <div class="email" id="email-layout">
+                            <div class="email" id="email-layout" style="display: none;">
                                 <form class="email-Form">
                                     <input type="email" id="sender" name="sender" placeholder="Email">
                                     <input type="text" id="subject" name="subject" placeholder="Subject">
-                                    <textarea id="message" name="message" required></textarea>
+                                    <textarea id="message" name="message" placeholder="Say Hello!"></textarea>
                                     <button type="submit" id="send" name="send" onclick="sendEmail()">Send</button>
                                 </form>
                             </div>
